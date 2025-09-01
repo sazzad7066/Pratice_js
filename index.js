@@ -1,5 +1,5 @@
-var base = prompt("Enter your base = ");
-var height = prompt("Enter your height = ");
-var area = (base * height) / 2;
+var celsius = prompt(" Enter your celsius = ");
 
-document.write("area =" + area);
+var fran = (celsius* (9/5)) +32;
+
+document.write("fahrenheit = " + fran);
