@@ -1,4 +1,5 @@
-var num = 20;
-console.log( typeof(num));
-num = toString(num)
-console.log( typeof(num));
+var base = prompt("Enter your base = ");
+var height = prompt("Enter your height = ");
+var area = (base * height) / 2;
+
+document.write("area =" + area);
