@@ -1,5 +1,6 @@
-var celsius = prompt(" Enter your celsius = ");
+var num = 10;
 
-var fran = (celsius* (9/5)) +32;
-
-document.write("fahrenheit = " + fran);
+if (num %2 ==0)
+    console.log("Even");
+if (num %2 !=0)
+    console.log("Odd");
