@@ -1,27 +1,29 @@
-/*var num = 10;
+//Digital spelling
+// 0 -zero, 1- one , 9.......Nine, 10-not a valid digit
 
-if (num %2 ==0)
-    console.log("Even");
-if (num %2 !=0)
-    console.log("Odd");
-*/
-// Student grading system
-var mark = prompt("Enter your mark:");
+var digit = prompt("Enter a any digit = : ");
 
-if (mark>=80)
-    console.log("A+");
-else if (mark>=70)
-    console.log("A");
-else if (mark>=60)
-    console.log("B+");
-else if (mark>=50)
-    console.log("B-");
-else if (mark>=40)
-    console.log("C");
+if (digit == 0)
+console.log(" Zero");
 
-else if(mark>=33)
-    console.log("D");
+else if (digit == 1)
+console.log(" One");
+else if (digit == 2)
+console.log(" Two");
+else if (digit == 3)
+console.log(" Three");
+else if (digit == 4)
+console.log(" Four");
+else if (digit == 5)
+console.log(" Five");
+else if (digit == 6)
+console.log(" Six");
+else if (digit == 7)
+console.log(" Seven");
+else if (digit == 8)
+console.log(" Eight");
+else if (digit == 9)
+console.log(" Nine");
 
-else 
-    console.log("F");
-
+else
+    console.log(" not a valid digit");
