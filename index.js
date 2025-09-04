@@ -1,9 +1,9 @@
 //Digital spelling
 // 0 -zero, 1- one , 9.......Nine, 10-not a valid digit
 
-var digit = prompt("Enter a any digit = : ");
+//var digit = prompt("Enter a any digit = : ");
 
-if (digit == 0)
+/* if (digit == 0)
 console.log(" Zero");
 
 else if (digit == 1)
@@ -27,3 +27,12 @@ console.log(" Nine");
 
 else
     console.log(" not a valid digit");
+*/
+// for loop
+
+var sum = 0;
+for(var x = 10; x <= 10; x = x + 1){
+    sum = sum + x;
+
+}
+document.write(sum) ;
