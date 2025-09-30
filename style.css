@@ -1,5 +1,6 @@
-.paraId{
+button {
+    font-size: 15px;
     color: red;
-    font-size: 20px;
-    font-style: italic;
+    background-color:green;
+   
 }
