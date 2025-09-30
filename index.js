@@ -2,8 +2,10 @@
 for(var i =0; i < 3; i++){
 document.querySelectorAll(".myButton")[i].addEventListener("click", function(){
  var text = this.innerHTML;
-audioPlay(text);
+   audioPlay(text);
+   playAnimation(text);
 });
+
 }
 
 function audioPlay(text){
@@ -23,5 +25,16 @@ function audioPlay(text){
       var audio = new Audio("Sound/c.mp3");
          audio.play();
          break;
+       
 }
+}
+
+
+function playAnimation(text){
+  var element = document.querySelector("."+text);
+  element.classList.add("anim");
+   setTimeout(function(){
+      element.classList.remove("anim");
+
+   }, 1000);
 }
