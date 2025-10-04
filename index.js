@@ -1,40 +1,6 @@
+"use strict";
 
-for(var i =0; i < 3; i++){
-document.querySelectorAll(".myButton")[i].addEventListener("click", function(){
- var text = this.innerHTML;
-   audioPlay(text);
-   playAnimation(text);
-});
-
+function message(){
+    console.log("Hello Es6");
 }
-
-function audioPlay(text){
-
-   switch(text){
-   case "a":
-      var audio = new Audio("Sound/a.mp3");
-         audio.play();
-         break;
-
-         case "b":
-      var audio = new Audio("Sound/b.mp3");
-         audio.play();
-         break;
-
-         case "c":
-      var audio = new Audio("Sound/c.mp3");
-         audio.play();
-         break;
-       
-}
-}
-
-
-function playAnimation(text){
-  var element = document.querySelector("."+text);
-  element.classList.add("anim");
-   setTimeout(function(){
-      element.classList.remove("anim");
-
-   }, 1000);
-}
+message();
