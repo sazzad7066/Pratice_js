@@ -1,6 +1,6 @@
 "use strict";
 
-function message(){
-    console.log("Hello Es6");
+function message(text){
+    console.log(text);
 }
-message();
+message('I love Es6');
